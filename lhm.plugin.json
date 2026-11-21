@@ -1,0 +1,22 @@
+{
+  "identifier": "megido",
+  "name": "Megido",
+  "version": "1.0.0",
+  "description": "Niche, competitor and traffic research on 400K+ websites with observed revenue, as MCP tools.",
+  "author": "Megido",
+  "homepage": "https://megido.io/?utm_source=lobehub",
+  "cloudEndpoint": "https://api.megido.io/mcp",
+  "tags": [
+    "market research",
+    "competitor research",
+    "niche research",
+    "idea validation",
+    "websites",
+    "observed revenue",
+    "look-alike search",
+    "startup research",
+    "traffic estimates",
+    "MCP server",
+    "AI agents"
+  ]
+}

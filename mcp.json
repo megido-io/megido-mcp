@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "megido": {
+      "url": "https://api.megido.io/mcp"
+    }
+  }
+}

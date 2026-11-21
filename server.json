@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.megido/observed-revenue-market-research",
+  "title": "Megido: niche, competitor and traffic research on sites with observed revenue",
+  "description": "Niche, competitor and traffic research on 400K+ websites with observed revenue, as MCP tools.",
+  "version": "1.0.0",
+  "websiteUrl": "https://megido.io/?utm_source=mcp-registry",
+  "repository": {
+    "url": "https://github.com/megido-io/megido-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.megido.io/mcp"
+    }
+  ]
+}

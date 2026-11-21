@@ -1,0 +1,26 @@
+{
+  "name": "megido",
+  "version": "1.0.0",
+  "description": "Research markets from Cursor: niches and players among 400K+ websites with observed revenue, their scale and growth.",
+  "author": {
+    "name": "Megido",
+    "email": "info@megido.io"
+  },
+  "homepage": "https://megido.io/?utm_source=cursor",
+  "repository": "https://github.com/megido-io/megido-mcp",
+  "license": "MIT",
+  "keywords": [
+    "market research",
+    "competitor research",
+    "niche research",
+    "idea validation",
+    "websites",
+    "observed revenue",
+    "look-alike search",
+    "startup research",
+    "traffic estimates",
+    "MCP server",
+    "AI agents"
+  ],
+  "logo": "icon.png"
+}

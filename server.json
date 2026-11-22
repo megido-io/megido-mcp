@@ -3,8 +3,24 @@
   "name": "io.megido/observed-revenue-market-research",
   "title": "Megido: niche, competitor and traffic research on sites with observed revenue",
   "description": "Niche, competitor and traffic research on 400K+ websites with observed revenue, as MCP tools.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://megido.io/?utm_source=mcp-registry",
+  "icons": [
+    {
+      "src": "https://megido.io/img/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://megido.io/img/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "repository": {
     "url": "https://github.com/megido-io/megido-mcp",
     "source": "github"

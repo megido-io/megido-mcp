@@ -96,7 +96,7 @@ The tools of tasks are listed only to an organization with Megido agents. The sa
 
 ## Access
 
-**Without registration.** Add Megido to your chat app and choose Connect on the sign-in. The index tools (searching niches and sites, opening their cards) are open within a free monthly quota.
+**Without registration.** Add Megido to your chat app and choose **Connect without registration** on the sign-in. The index tools (searching niches and sites, opening their cards) are open within a free monthly quota.
 
 **Registered.** Sign up with your email and your organization is ready at once. The index tools stay free within the quota of your plan; the other tools (domain lookups, reveals, profile parts) are paid from your organization's credits, and any paid call can be estimated for free first. A reveal or a bought profile part holds for 30 days for your whole organization. If your organization has Megido agents, give them a brief at a price set before the work starts.
 

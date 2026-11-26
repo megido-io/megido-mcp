@@ -34,4 +34,4 @@ A client that cannot open a browser can send an API key instead. A registered pe
 
 - Read the server's instructions, or call `guide`, before the first research question: they say how to read each field and what each call costs.
 - The index tools (`search_cohorts`, `get_cohort`, `search_projects`, `get_project_card`) work without registration within a free monthly quota. The other tools ask the person to register.
-- More: https://megido.io/connect?utm_source=cline
+- More: https://megido.io/connect?utm_source=cline&utm_medium=referral

@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Niche, competitor and traffic research on 400K+ websites with observed revenue, as MCP tools.",
   "author": "Megido",
-  "authorUrl": "https://megido.io/?utm_source=lobehub",
-  "homepage": "https://megido.io/?utm_source=lobehub",
+  "authorUrl": "https://megido.io/?utm_source=lobehub&utm_medium=referral",
+  "homepage": "https://megido.io/?utm_source=lobehub&utm_medium=referral",
   "icon": "https://raw.githubusercontent.com/megido-io/megido-mcp/main/icon.png",
   "cloudEndpoint": "https://api.megido.io/mcp",
   "tags": [

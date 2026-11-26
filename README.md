@@ -10,7 +10,7 @@ You explore anonymously: projects come without their domains. Reveal only the pr
 
 Be clear about what the corpus does not tell. It records the fact of revenue, not its volume or amount, prices or pricing model. Traffic is an estimate: a twelve-month average with the change over the last month, without monthly history. A niche in Megido is a sample of its paying players, not a census of the market.
 
-Works with Claude, Claude Code, ChatGPT, Cursor, VS Code and any MCP client over HTTP. No agent of your own? Use the Megido chat in the portal.
+Works with Claude, ChatGPT, Codex, Claude Code, Cursor, VS Code and any MCP client over HTTP. No agent of your own? Use the Megido chat in the portal.
 
 This repository holds no server code. Megido is a hosted service: the MCP server runs at `https://api.megido.io/mcp`, and this repository carries the files that MCP clients and catalogs read to connect to it.
 
@@ -23,6 +23,17 @@ This repository holds no server code. Megido is a hosted service: the MCP server
 | Authentication | OAuth: your app opens the Megido portal to sign in. An API key from the portal works too. |
 
 Add the endpoint to your MCP client. On the sign-in you can create an account, sign in, or choose **Connect without registration** to start at once.
+
+**Claude**: [Add to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Megido&connectorUrl=https%3A%2F%2Fapi.megido.io%2Fmcp) opens Claude with Megido filled in: click **Add**, then **Connect**. By hand: Settings → Connectors → Add custom connector, with the endpoint above.
+
+**ChatGPT**: Settings → Apps → Developer mode → **Create app**, with the endpoint above and OAuth. Custom connectors need a ChatGPT Business, Enterprise or Edu workspace whose admin allows developer mode; personal plans cannot add them.
+
+**Codex**
+
+```sh
+codex mcp add megido --url https://api.megido.io/mcp
+codex mcp login megido
+```
 
 **Claude Code**
 
@@ -55,7 +66,7 @@ claude mcp add --transport http --scope user megido https://api.megido.io/mcp
 }
 ```
 
-**Claude, ChatGPT and other apps**: add a custom connector with the endpoint above. Step-by-step setup for each app, and for API keys, is on the [Connect page](https://megido.io/connect?utm_source=github).
+**Other apps**: add a custom connector with the endpoint above. Step-by-step setup for each app, and for API keys, is on the [Connect page](https://megido.io/connect?utm_source=github&utm_medium=referral).
 
 Once connected, ask your agent to call `capabilities`: it lists the tools, what each one charges for and the values their filters accept.
 
@@ -92,7 +103,7 @@ Once connected, ask your agent to call `capabilities`: it lists the tools, what 
 | `list_tasks` | List your organization's tasks. |
 | `update_task` | Reply to the agent, accept, revise or cancel a task. |
 
-The tools of tasks are listed only to an organization with Megido agents. The same tools are available over an HTTP API: see the [API reference](https://megido.io/docs/api?utm_source=github).
+The tools of tasks are listed only to an organization with Megido agents. The same tools are available over an HTTP API: see the [API reference](https://megido.io/docs/api?utm_source=github&utm_medium=referral).
 
 ## Access
 
@@ -102,15 +113,15 @@ The tools of tasks are listed only to an organization with Megido agents. The sa
 
 ## Links
 
-- Website: [megido.io](https://megido.io/?utm_source=github)
-- Connect: [megido.io/connect](https://megido.io/connect?utm_source=github)
-- Guide: [megido.io/guide](https://megido.io/guide?utm_source=github)
-- Pricing: [megido.io/pricing](https://megido.io/pricing?utm_source=github)
-- HTTP API reference: [megido.io/docs/api](https://megido.io/docs/api?utm_source=github)
-- Terms: [megido.io/terms](https://megido.io/terms?utm_source=github)
-- Privacy: [megido.io/privacy](https://megido.io/privacy?utm_source=github)
+- Website: [megido.io](https://megido.io/?utm_source=github&utm_medium=referral)
+- Connect: [megido.io/connect](https://megido.io/connect?utm_source=github&utm_medium=referral)
+- Guide: [megido.io/guide](https://megido.io/guide?utm_source=github&utm_medium=referral)
+- Pricing: [megido.io/pricing](https://megido.io/pricing?utm_source=github&utm_medium=referral)
+- HTTP API reference: [megido.io/docs/api](https://megido.io/docs/api?utm_source=github&utm_medium=referral)
+- Terms: [megido.io/terms](https://megido.io/terms?utm_source=github&utm_medium=referral)
+- Privacy: [megido.io/privacy](https://megido.io/privacy?utm_source=github&utm_medium=referral)
 - Contact: info@megido.io
 
 ## License
 
-The files of this repository are under the [MIT License](LICENSE). The license covers these files only. Megido itself, its server and its data are a hosted, proprietary service: using it is governed by the [Terms of Service](https://megido.io/terms?utm_source=github), not by this license.
+The files of this repository are under the [MIT License](LICENSE). The license covers these files only. Megido itself, its server and its data are a hosted, proprietary service: using it is governed by the [Terms of Service](https://megido.io/terms?utm_source=github&utm_medium=referral), not by this license.
